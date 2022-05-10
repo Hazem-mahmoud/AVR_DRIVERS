@@ -1,0 +1,15 @@
+/*
+ * main.c
+ *
+ *  Created on: May 10, 2022
+ *      Author: hazem
+ */
+
+#include <avr/io.h>
+
+int main()
+{
+	DDRA=0b00000001;
+	PORTA=0b11110000;
+}
+

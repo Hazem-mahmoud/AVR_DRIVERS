@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: May 10, 2022
+ *      Author: hazem
+ */
+
+#include <avr/io.h>
+
+int main()
+{
+	/*set pin direction*/
+	DDRA=0b11111111;
+	/*set pin value*/
+	PORTA=0b11110000;
+}
+
